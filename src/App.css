@@ -1,0 +1,27 @@
+.app {
+  display: flex;
+}
+
+.toggle-sidebar-btn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+.sidebar {
+  width: 200px;
+  transition: width 0.3s;
+}
+
+.sidebar.closed {
+  width: 0;
+}
+
+.sidebar ul.disabled {
+  display: none;
+}
+
+.game-container {
+  transition: width 0.3s;
+}
